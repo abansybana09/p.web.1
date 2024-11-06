@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Ke2 P web 1</title>
+</head>
+<body>
+
+    <h2>Tambah Data Kamar</h2>
+    <form>
+        <label for="id-kamar">ID Kamar:</label>
+        <input type="number" id="id-kamar" name="id-kamar" required /><br><br>
+
+        <label for="gambar-ruangan">Gambar Ruangan:</label>
+        <input type="file" id="gambar-ruangan" name="gambar-ruangan" accept="image/*"><br><br>
+
+        <label for="jenis-kamar">Jenis Kamar:</label>
+        <select id="tipe-kamar" name="tipe-kamar">
+            <option value="">--Pilih--</option>
+            <option value="standard">STANDARD</option>
+            <option value="deluxe">DELUXE</option>
+            <option value="family">FAMILY</option>
+        </select><br><br>
+
+        <label for="harga">Harga:</label>
+        <select id="harga" name="harga">
+            <option value="">--Pilih--</option>
+            <option value="standard">150000</option>
+            <option value="deluxe">250000</option>
+            <option value="family">350000</option>
+        </select><br><br>
+
+
+        <label for="fasilitas-kamar">Fasilitas:</label>
+        <select id="fasilitas-kamar" name="fasilitas-kamar">
+            <option value="">--Pilih--</option>
+            <option value="standard">Kolam Renang</option>
+            <option value="deluxe">Tempat GYM</option>
+            <option value="family">AC</option>
+        </select><br><br>
+
+        <button type="submit" style="background-color: rgb(174, 242, 4)">Simpan</button>
+        <button type="reset" style="background-color: rgb(60, 136, 251)">Batal</button>
+    </form>
+
+    <h2>Tambah Fasilitas</h2>
+    <form>
+        <label for="id-fasilitas">ID:</label>
+        <input type="text" id="id-fasilitas" name="id-fasilitas"><br><br>
+
+        <label for="nama-fasilitas">Nama: </label>
+        <input type="text" id="nama-fasilitas" name="nama-fasilitas" required /><br><br>
+
+        <label for="jenis-fasilitas">Fasilitas:</label>
+        <select id="jenis-fasilitas" name="jenis-fasilitas">
+            <option value="">--Pilih--</option>
+            <option value="standard">Bar</option>
+            <option value="deluxe">Wifi</option>
+            <option value="family">Tempat Tidur Double</option>
+        </select><br><br>
+
+        <label for="harga-weekend">Harga Weekend:</label>
+        <select id="harga-weekend" name="harga-weekend">
+            <option value="">--Pilih--</option>
+            <option value="reguler">100000</option>
+            <option value="standard">150000</option>
+            <option value="premium">20000</option>
+        </select><br><br>
+
+        <label for="harga-weekday">Harga Weekday:</label>
+        <select id="harga-weekday" name="harga-weekday">
+            <option value="">--Pilih--</option>
+            <option value="reguler">75000</option>
+            <option value="standard">100000</option>
+            <option value="premium">120000</option>
+        </select><br><br>
+
+        <label for="kuota">Kuota:</label>
+        <input type="number" id="kuota" name="kuota"><br><br>
+
+        <label for="jam-buka">Jam Buka:</label>
+        <input type="time" id="jam-buka" name="jam-buka"><br><br>
+
+        <label for="jam-tutup">Jam Tutup:</label>
+        <input type="time" id="jam-tutup" name="jam-tutup"><br><br>
+
+        <button type="submit" style="background-color: rgb(238, 69, 254)">Simpan</button>
+        <button type="reset" style="background-color: rgb(13, 208, 243)">Batal</button>
+    </form>
+
+</body>
+</html>

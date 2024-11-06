@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Ke1 P web 1</title>
+</head>
+<body>
+    <h2>Form Pemesanan</h2>
+
+    <form>
+        <label for="jumlah-pemesanan">Id Pemesanan:</label>
+        <input type="number" id="jumlah-pemesanan" name="jumlah-pemesanan"><br><br>
+
+        <label for="nama-pemesan">Nama Pemesan:</label>
+        <input type="text" id="nama-pemesan" name="nama-pemesan" required /><br><br>
+
+        <label for="nomor-identitas">Nomor Identitas:</label>
+        <input type="number" id="nomor-identitas" name="nomor-identitas" required /><br><br>
+
+        <label for="tipe-kamar">Tipe Kamar:</label>
+        <select id="tipe-kamar" name="tipe-kamar">
+            <option value="">--Pilih--</option>
+            <option value="standard">STANDARD</option>
+            <option value="deluxe">DELUXE</option>
+            <option value="family">FAMILY</option>
+        </select><br><br>
+
+        <label for="harga">Harga:</label>
+        <input type="text" id="harga" name="harga"><br><br>
+
+        <label for="tanggal-pesan">Tanggal Pesan:</label>
+        <input type="date" id="tanggal-pesan" name="tanggal-pesan"><br><br>
+
+        <label for="durasi-menginap">Durasi Menginap:</label>
+        <input type="number" id="durasi-menginap" name="durasi-menginap"> Hari<br><br>
+
+        <label for="breakfast">Termasuk Breakfast:</label>
+        <input type="checkbox" id="breakfast" name="breakfast" value="yes"> Ya<br><br>
+
+        <label for="total-bayar">Total Bayar:</label>
+        <input type="text" id="total-bayar" name="total-bayar"><br><br>
+
+        <button type="submit">Simpan</button>
+        <button type="reset">Batal</button>
+    </form>
+</body>
+</html>
